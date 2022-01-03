@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@todo/data": ["libs/data/src/index.ts"],
+      "@todo/dataa": ["libs/dataa/src/index.ts"],
+      "@todo/search": ["libs/search/src/index.ts"],
+      "@todo/ui": ["libs/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
